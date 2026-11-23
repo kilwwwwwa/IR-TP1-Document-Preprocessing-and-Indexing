@@ -1,0 +1,4 @@
+,Vocabulary size,Avg tokens/doc,Total postings,Total stored positions
+Version A,36.0,6.9,66.0,69.0
+Version B,30.0,6.1,59.0,61.0
+Version C,24.0,6.1,57.0,61.0
