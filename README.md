@@ -14,7 +14,7 @@
 - **Version C:** B + Porter stemming.
 - **Vocabulary:** sorted set of unique tokens per version.
 - **Matrices:** binary and term-frequency term–document matrices built with plain dictionaries and displayed with pandas.
-- **Inverted index:** `term -> {doc_id: [positions]}`, built with `defaultdict`. Positions are token positions after preprocessing. `search_term()` returns the sorted list of documents containing a term.
+- **Inverted index:** built with `defaultdict`.`search_term()` returns the sorted list of documents containing a term.
 - **Verification (Part 5):** checks `search_term` (single-doc, multi-doc, stemmed and unknown terms), checks that every stored position matches the token, checks the matrices against raw counts, and compares the hand-written `small_index` with the generated one.
 
 
