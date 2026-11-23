@@ -20,7 +20,7 @@
 
 ## Interpretation
 
-By analaysing the three versions ( Collection A, B, C ), it showcases how each preprocessing step reshapes the vocabulary and the index in a way or another 
+By analaysing the three versions ( Collection A, B, C ), i conclude that preprocessing makes the vocabulary and the index smaller 
 - Version A only lowercases the text and removes punctuation, so "DOCUMENTS" and "documents" count as one term; it has 36 terms and 66 postings.
 - Version B drops stop words such as "the", "and" and "to", leaving 30 terms and 59 postings, and documents shrink from 6.9 to 6.1 tokens on average.
 - Version C applies Porter stemming, so "documents" and "document" merge, and "retrieval" and "retrieves" both become "retriev", giving 24 terms and 57 postings.
