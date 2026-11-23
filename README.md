@@ -17,13 +17,6 @@
 - **Inverted index:** `term -> {doc_id: [positions]}`, built with `defaultdict`. Positions are token positions after preprocessing. `search_term()` returns the sorted list of documents containing a term.
 - **Verification (Part 5):** checks `search_term` (single-doc, multi-doc, stemmed and unknown terms), checks that every stored position matches the token, checks the matrices against raw counts, and compares the hand-written `small_index` with the generated one.
 
-## Main results
-
-| Version | Vocabulary size | Avg tokens/doc | Total postings | Stored positions |
-|---------|----------------|----------------|----------------|------------------|
-| A | 36 | 6.9 | 66 | 69 |
-| B | 30 | 6.1 | 59 | 61 |
-| C | 24 | 6.1 | 57 | 61 |
 
 ## Interpretation
 
